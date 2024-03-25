@@ -1,6 +1,63 @@
-fastapi
-uvicorn[standard]
-sqlalchemy
-databases[aiosqlite]
-python-dotenv
-httpx
+aiofiles==23.2.1
+aiosqlite==0.20.0
+annotated-types @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_fbh4enbns2/croot/annotated-types_1709542919423/work
+anyio @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_646d7rz2z6/croot/anyio_1706220176177/work
+asgi-correlation-id==4.3.1
+b2sdk==1.33.0
+bcrypt==4.1.2
+black==24.3.0
+certifi @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_dfez5lkpj0/croot/certifi_1707229180975/work/certifi
+charset-normalizer==3.3.2
+click @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f27dk3zwrb/croot/click_1698129816363/work
+databases==0.9.0
+ecdsa==0.18.0
+exceptiongroup @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f147j11jio/croot/exceptiongroup_1706031400682/work
+fastapi @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_cdj0ftnakq/croot/fastapi_1693295411694/work
+greenlet==3.0.3
+h11 @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_14h6x3q_k6/croot/h11_1706652288187/work
+httpcore @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_2ek8c13vuv/croot/httpcore_1706728466947/work
+httptools==0.6.1
+httpx @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_67v456zufa/croot/httpx_1706887110127/work
+idna @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_00jf0h4zbt/croot/idna_1666125573348/work
+iniconfig @ file:///home/linux1/recipes/ci/iniconfig_1610983019677/work
+isort==5.13.2
+logfury==1.0.1
+logtail-python==0.2.10
+markdown-it-py==3.0.0
+mdurl==0.1.2
+msgpack==1.0.8
+mypy-extensions==1.0.0
+packaging @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_2bd6vdlyjt/croot/packaging_1710810554459/work
+passlib==1.7.4
+pathspec==0.12.1
+platformdirs==4.2.0
+pluggy @ file:///opt/concourse/worker/volumes/live/8277900c-164a-49c8-6f2a-f55c3c0154be/volume/pluggy_1648042581708/work
+pyasn1==0.5.1
+pydantic @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_b0i6bkso_m/croot/pydantic_1709577983881/work
+pydantic-settings==2.2.1
+pydantic_core @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_9fzsx664y3/croot/pydantic-core_1709573976356/work
+pyfakefs==5.3.5
+Pygments==2.17.2
+pytest @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_7089yk6bfu/croot/pytest_1690474697638/work
+pytest-mock==3.14.0
+python-dotenv==1.0.1
+python-jose==3.3.0
+python-json-logger==2.0.7
+python-multipart==0.0.9
+PyYAML==6.0.1
+requests==2.31.0
+rich==13.7.1
+rsa==4.9
+ruff==0.3.4
+six==1.16.0
+sniffio @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_a46njf828g/croot/sniffio_1705431298111/work
+SQLAlchemy==2.0.29
+starlette @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_0fv66xu39f/croot/starlette-recipe_1692980412920/work
+tomli @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_90762ba4-f339-47e8-bd29-416854a59b233d27hku_/croots/recipe/tomli_1657175507767/work
+tqdm==4.66.2
+typing_extensions @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_31f_f02huc/croot/typing_extensions_1705599310686/work
+urllib3==2.2.1
+uvicorn @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_d80hhx7s7h/croot/uvicorn-split_1678090080474/work
+uvloop==0.19.0
+watchfiles==0.21.0
+websockets==12.0
