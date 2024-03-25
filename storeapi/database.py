@@ -2,7 +2,7 @@
 import databases  # 导入databases库,用于异步数据库操作
 import sqlalchemy  # 导入sqlalchemy库,用于定义数据库表结构和执行数据库操作
 
-from code.storeapi.config import config  # 从storeapi.config模块导入config对象,用于获取配置信息
+from storeapi.config import config  # 从storeapi.config模块导入config对象,用于获取配置信息
 
 metadata = sqlalchemy.MetaData()  # 创建一个MetaData对象,用于存储数据库表的元数据信息
 

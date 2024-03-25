@@ -2,8 +2,8 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
-from code.storeapi.database import database
-from code.storeapi.routers.post import router as post_router
+from storeapi.database import database
+from storeapi.routers.post import router as post_router
 
 
 @asynccontextmanager
