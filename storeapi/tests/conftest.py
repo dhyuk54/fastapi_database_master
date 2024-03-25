@@ -7,8 +7,8 @@ from httpx import AsyncClient
 
 # 设置环境变量 ENV_STATE 为 "test",以确保使用测试配置
 os.environ["ENV_STATE"] = "test"
-from code.storeapi.database import database  # noqa: E402
-from code.storeapi.main import app  # noqa: E402
+from storeapi.database import database  # noqa: E402
+from storeapi.main import app  # noqa: E402
 
 """
 anyio_backend fixture:
