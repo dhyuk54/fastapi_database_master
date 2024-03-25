@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from storeapi.database import comment_table, database, post_table
-from storeapi.models.post import (
+from code.storeapi.database import comment_table, database, post_table
+from code.storeapi.models.post import (
     Comment,
     CommentIn,
     UserPost,
