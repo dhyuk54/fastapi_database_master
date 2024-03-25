@@ -1,7 +1,0 @@
-fastapi
-uvicorn[standard]
-sqlalchemy
-databases[aiosqlite]
-python-dotenv
-httpx
-pydantic-settings
