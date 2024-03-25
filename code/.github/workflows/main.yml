@@ -4,7 +4,7 @@ on: [push]
 
 defaults:
   run:
-    working-directory: ./storeapi
+    working-directory: code/storeapi
 
 jobs:
   build:
